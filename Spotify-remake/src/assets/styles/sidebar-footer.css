@@ -1,0 +1,238 @@
+body{
+
+    
+    background-color: #000;
+    font-family: var(--font-dm-sans);
+    
+
+}
+
+.sidebar_navigation{
+
+    background-color: #121212;
+    border-radius: 8px;
+    
+}
+.sidebar{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 16px;
+    width: 300px;
+}
+
+.sidebar .logo{
+
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+        
+.logo img {
+
+    width: 80px;
+}
+
+.sidebar nav ul{
+
+    list-style: none;
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+.sidebar nav ul li{
+
+    padding: 10px 0px;
+
+}
+
+.sidebar nav ul a{
+
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.sidebar nav ul a span:first-child{
+
+    padding: 0 10px 0 0;
+    font-size: 20px;
+}
+.library {
+
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    min-block-size: 40px;
+    padding: 10px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.library .library_content{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.library .library_content .library_button{
+   
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+
+}
+.library .library_button .fa{
+
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+
+}
+.library .fa-plus{
+
+   margin: 24px 10px;
+    
+}
+
+.section_playlist{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+.section_playlist .section_playlist_content {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section_playlist_content .text{
+
+    padding-bottom: 14px;
+    color: #fff;
+
+}
+.section_playlist_content .title{
+
+    font-weight: 700;
+
+}
+.section_playlist_content .subtitle{
+
+    font-weight: 500;
+    font-size: 13px;
+
+}
+.section_playlist_content .section_playlist_button{
+
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 113px;
+    cursor: pointer;
+
+}
+.sidebar .cookies{
+
+    margin: 25px 20px;
+}
+.sidebar .cookies a{
+
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover{
+    
+    text-decoration: underline;
+}
+
+.languages .languages_button{
+
+    background-color: transparent;
+    border: 1px solid #878787;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    align-items: center;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+}
+.disclaimer-premium{
+    background: linear-gradient(to right, #000,#351c36 ,#cb96f7);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    
+}
+
+.disclaimer-premium .text{
+    flex-shrink: 0;
+    color: #fff;
+}
+.disclaimer-premium .disclaimer-premium_title{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.disclaimer-premium .disclaimer-premium_subtitle{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.disclaimer-premium button{
+    color: #000;
+    background-color: #fff;
+    padding: 14px 30px;
+    border-radius: 40px;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    flex-shrink: 0; /*tamanho fixo, nao vai redusir*/
+}
